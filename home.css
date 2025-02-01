@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(2, 2, 51);
+}
+header{
+    display:flex;
+    justify-content: flex-end;
+}
+#circle1{
+    background-color:rgb(19, 252, 201) ;
+    width: 600px;
+    height: 600px;
+    margin-top: -15vh;
+    margin-left: 20vh;
+
+    position:absolute;
+   border-radius: 50%;
+   filter: blur(300px);
+}
+#circle2{
+    background-color:rgba(228, 143, 223, 0.842) ;
+    width: 600px;
+    height: 600px;
+   margin-top: 20vh;
+    margin-left: 140vh;
+    position:absolute;
+   border-radius: 50%;
+   filter: blur(400px);
+}
+
+nav{
+    width: 30vh;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30vh;
+    margin-top: 5vh;
+    font-size: 2vh;
+}
+nav a{
+    color: aliceblue;
+}
+main{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+main img{
+    
+    width: 80vh;
+    height: 100vh;
+    margin-right: 10vh;
+}
+article {
+color: aliceblue;
+margin-left: 20vh;
+
+}
+article h1{
+    font-size: 10vh;
+ 
+    font-family:fantasy;
+   
+}
+article p{
+    font-size: 2vh;
+}
+article input{
+    width: 40vh;
+    height: 10vh;
+    border-radius: 40px;
+    background-color:rgb(240, 136, 94);
+    font-size: 4vh;
+    color: aliceblue;
+   
+}
+#btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+
+}
